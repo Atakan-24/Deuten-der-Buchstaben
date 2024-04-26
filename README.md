@@ -14,15 +14,7 @@ Um das Skript auszuführen, öffne die Python-Umgebung und führe das Skript aus
 
 **Beispiel:**
 
-```
-Geben Sie ein Wort ein vom Wörterbuch oder 'x' zum Beenden: lloah
-Gefundenes Wort: hallo
+![image](https://github.com/Atakan-24/Deuten-der-Buchstaben/assets/93819298/d51aeaf1-305d-49b0-9fe7-914e3e8c6946)
 
-Geben Sie ein Wort ein vom Wörterbuch oder 'x' zum Beenden: cdoe
-Gefundenes Wort: code
-
-Geben Sie ein Wort ein vom Wörterbuch oder 'x' zum Beenden: x
-Programm wird beendet.
-```
 
 Viel Spaß beim Ausprobieren

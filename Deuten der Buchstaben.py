@@ -9,7 +9,7 @@ if __name__ == "__main__":
     woerterbuch = ["hallo", "welt", "python", "programmieren", "beispiel"]
 
     # Benutzereingabe entgegennehmen
-    eingabe = input("Geben Sie Buchstaben ein: ").lower()
+    eingabe = input("Geben Sie wort ein vom wörterbuch: ").lower()
 
     # Deuten der Buchstaben
     ergebnis = deuten(eingabe, woerterbuch)

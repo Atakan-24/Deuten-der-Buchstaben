@@ -6,13 +6,18 @@ def deuten(buchstaben, woerterbuch):
 
 if __name__ == "__main__":
     # Wörterbuch
-    woerterbuch = ["hallo", "welt", "python", "programmieren", "beispiel"]
+    woerterbuch = ["hallo", "welt", "python", "code", "auto" , "lol" , "bad", "win" , "kp", "brot"]
 
-    
-    eingabe = input("Geben Sie wort ein vom wörterbuch: ").lower()
+    while True:
+        eingabe = input("Geben Sie ein Wort ein vom Wörterbuch oder 'x' zum Beenden: ").lower()
 
-    # Deuten
-    ergebnis = deuten(eingabe, woerterbuch)
+        if eingabe == 'x':
+            print("Programm wird beendet.")
+            break
 
-    # Ausgabe 
-    print("Deutung:", ergebnis)
+        # Deuten
+        ergebnis = deuten(eingabe, woerterbuch)
+
+        # Ausgabe 
+        print("Gefundenes Wort:", ergebnis)
+

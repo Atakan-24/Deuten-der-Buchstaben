@@ -5,14 +5,14 @@ def deuten(buchstaben, woerterbuch):
     return "Kein passendes Wort gefunden."
 
 if __name__ == "__main__":
-    # Beispiel-Wörterbuch
+    # Wörterbuch
     woerterbuch = ["hallo", "welt", "python", "programmieren", "beispiel"]
 
-    # Benutzereingabe entgegennehmen
+    
     eingabe = input("Geben Sie wort ein vom wörterbuch: ").lower()
 
-    # Deuten der Buchstaben
+    # Deuten
     ergebnis = deuten(eingabe, woerterbuch)
 
-    # Ausgabe des Ergebnisses
+    # Ausgabe 
     print("Deutung:", ergebnis)

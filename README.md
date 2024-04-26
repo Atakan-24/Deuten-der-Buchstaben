@@ -10,7 +10,9 @@ Dieses Skript ermöglicht es Benutzern, Buchstaben einzugeben und das passende W
 
 ## Beispiel
 
-Angenommen, das Wörterbuch enthält die Wörter ["hallo", "welt", "python", "programmieren", "beispiel"]. Wenn Sie "woll" eingeben, gibt das Skript "woll" aus, da es im Wörterbuch enthalten ist.
+Angenommen, das Wörterbuch enthält die Wörter ["hallo", "welt", "python", "programmieren", "beispiel"]. Wenn Sie "woll" eingeben, gibt das Skript "Wort nicht gefunden" aus, da es nicht im Wörterbuch enthalten ist.
+
+Wenn Sie "hallo" eingeben, gibt das Skript "Das Wort 'hallo' wurde gefunden!" aus.
 
 ## Anpassung
 
